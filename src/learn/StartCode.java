@@ -51,9 +51,41 @@ public class StartCode {
 
         // Setting values..
         // Set will remove the element at the given position and replace it with new field.
-         names.set(1,"Maverick");
+        // names.set(1,"Maverick");
+        // System.out.println(names);
 
-        //names.add(1,"Maverick");
+        // add method add the element at the position and shift the next elements at +1 position.
+        names.add(1,"Maverick");
+        System.out.println(names);
+
+        // remove all elements
+        // names.clear();
+
+        // Copy all the elements of the arraylist into the vector.
+
+        System.out.println("Vector ==> ");
+        Vector<String> vector = new Vector<>();
+        vector.addAll(names);
+
+        System.out.println("Vector "+vector);
+
+
+        System.out.println("__________________________________________________________________________________");
+
+        System.out.println("HASHSET ==> ");
+        HashSet<Double> nms = new HashSet<>();
+        nms.add(10.10);
+        nms.add(12.12);
+        nms.add(13.13);
+        nms.add(15.15);
+        nms.add(14.14);
+
+        System.out.println(nms);
+
+        System.out.println("TreeSet ==> ");
+        TreeSet<Double> tset = new TreeSet<>();
+        tset.addAll(nms);
+        System.out.println(tset);
 
     }
 }
