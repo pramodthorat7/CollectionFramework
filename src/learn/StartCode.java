@@ -24,11 +24,11 @@ public class StartCode {
 
         System.out.println(names);
 
-//        LinkedList list = new LinkedList();
-//        list.add(10);
-//        list.add("James");
-//        list.add(true);
-//        list.add(3.123);
-//        System.out.println(list);
+        LinkedList list = new LinkedList();
+        list.add(10);
+        list.add("James");
+        list.add(true);
+        list.add(3.123);
+        System.out.println(list);
     }
 }
